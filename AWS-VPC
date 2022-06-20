@@ -7,3 +7,18 @@ Maximum number of subnets in a VPC?
 Maximum number of elastic IP's?
 
 Maximum number of route tables in a VPC?
+
+Difference between default VPC and custom VPC?
+Ans- IG is attached in default VPC but in custom we need to add IG.
+
+Which VPC objects are already available in an AWS account ?
+default VPC, Internet gateway, route table, subnet, security group and NACL.
+
+Difference between public subnet and private subnet
+IG is attached in public while in private IG is not attached
+
+What is allowed CIDR for VPC?
+Ans- /16 to /28
+
+How many IPs are reserved in a subnet?
+Ans- 5 (1. Network id 2. Broadcast address 3. DNS 4. Future Purpose 5. Gateway)
